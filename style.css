@@ -1,3 +1,8 @@
+html{
+    overflow-x:hidden;
+    width: 100%;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -618,4 +623,59 @@ section{
     .count span{
         font-size: 1.2rem;
     }
+}
+
+@media (max-width:320px) {
+    .home{
+        height: 80vh;
+    }
+    header{
+        padding: 11px 2%;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .sign-in{
+        font-size: 10px;
+    }
+    .home-text h1{
+        font-size: 43px;
+    }
+
+    .home-text h4{
+        font-size: 17px;
+    }
+    .count{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .count li{
+        font-size: 13px;
+    }
+    .count li span{
+            font-size: 16px;
+    }
+        .home {
+            background-position: -1072px;
+    }
+    .services-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(276px, auto));
+        grid-gap: 2rem;
+        align-items: center;
+        margin-top: 4.4rem;
+}
+
+  .box i{
+     font-size: 40px;
+  }
+  .box h3{
+         font-size: 21px;
+  }
+   .box p{
+       font-size: 14px;
+   }
+   .cta{
+                    margin-left: -17px;
+   }
 }
